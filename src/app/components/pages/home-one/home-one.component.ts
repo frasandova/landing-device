@@ -24,29 +24,30 @@ export class HomeOneComponent {
 
   slideStore = [
     {
-      introtext: "Creative",
-      title: "Becki Agency",
-      subtitle: "One Page Template",
+      introtext: "Creatividad",
+      title: "Dev-Ice",
+      subtitle: "Desarrollo a Medida",
       image: "assets/images/slides/home2-bg-1.jpg",
       btnSlide: "btn btn-lg btn-gradient-primary btn-square mt-30",
       btnText: "Start a Project",
-    },
-
-    {
-      introtext: "Your Digital Superhero",
-      title: "Visualizing Innovation",
-      image: "assets/images/slides/home-bg-2.jpg",
-      btnSlide: "btn btn-lg btn-light-outline btn-square mt-30",
-      btnText: "Purchase Now",
-    },
-
-    {
-      introtext: "Becki Agency",
-      title: "Your Vision, Our Expertise",
-      image: "assets/images/slides/home-bg-3.jpg",
-      btnSlide: "btn btn-lg btn-light btn-square mt-30",
-      btnText: "Purchase Now",
     }
+    // ,
+
+    // {
+    //   introtext: "Your Digital Superhero",
+    //   title: "Visualizing Innovation",
+    //   image: "assets/images/slides/home-bg-2.jpg",
+    //   btnSlide: "btn btn-lg btn-light-outline btn-square mt-30",
+    //   btnText: "Purchase Now",
+    // },
+
+    // {
+    //   introtext: "Becki Agency",
+    //   title: "Your Vision, Our Expertise",
+    //   image: "assets/images/slides/home-bg-3.jpg",
+    //   btnSlide: "btn btn-lg btn-light btn-square mt-30",
+    //   btnText: "Purchase Now",
+    // }
 
   ]
 

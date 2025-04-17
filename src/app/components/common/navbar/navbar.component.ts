@@ -23,6 +23,7 @@ export class NavbarComponent {
 
     if (scrollTop > 100) {  
       this.isSticky = true;
+      // this.logo = 'assets/images/logo-black.png';
       this.logo = 'assets/images/logo-black.png';
     } else {
       this.isSticky = false;
