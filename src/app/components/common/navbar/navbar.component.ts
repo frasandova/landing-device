@@ -7,7 +7,7 @@ import { Component, HostListener } from '@angular/core';
 })
 export class NavbarComponent {
   isSticky: boolean = false;
-  logo: string = 'assets/images/logo-white.png';
+  logo: string = 'assets/images/logo-white-dev.png';
 
     
   scrollToSection(sectionId: string) {
@@ -24,10 +24,10 @@ export class NavbarComponent {
     if (scrollTop > 100) {  
       this.isSticky = true;
       // this.logo = 'assets/images/logo-black.png';
-      this.logo = 'assets/images/logo-black.png';
+      this.logo = 'assets/images/logo-black-dev.png';
     } else {
       this.isSticky = false;
-      this.logo = 'assets/images/logo-white.png';
+      this.logo = 'assets/images/logo-white-dev.png';
     }
   }
 

@@ -151,63 +151,53 @@ export class HomeOneComponent {
 
   slideStoreTwo: { title: string; subtitle: string; image: string; index: number }[] = [
     {
-      title: "Web Designer",
-      subtitle: "Tom Bills",
+      title: "Gerente General",
+      subtitle: "Francisco Sandoval",
       image: "team-1.jpg",
       index: 0
     },
     {
-      title: "CEO of Becki Agency",
-      subtitle: "Sara Adams",
+      title: "CEO of Dev-Ice",
+      subtitle: "Mauricio Toro",
       image: "team-2.jpg",
       index: 1
     },
     {
-      title: "Photographer",
-      subtitle: "Enzo William",
+      title: "CTO",
+      subtitle: "Victor Ferrada",
       image: "team-3.jpg",
       index: 2
     }
   ];
 
   socialLinks = [
-    { iconOuter: "facebook", iconInner: ['icofont icofont-social-facebook'] },
-    { iconOuter: "twitter", iconInner: ['icofont icofont-social-twitter'] },
-    { iconOuter: "pinterest", iconInner: ['icofont icofont-social-pinterest'] },
+    { iconOuter: "facebook", iconInner: ['icofont icofont-social-facebook'], iconUrl: "https://www.linkedin.com/in/victor-ferrada-1740216b/"},
+    { iconOuter: "twitter", iconInner: ['icofont icofont-social-twitter'],  iconUrl: "https://www.linkedin.com/in/victor-ferrada-1740216b/" },
+    { iconOuter: "linkedin", iconInner: ['icofont icofont-social-linkedin'],  iconUrl: "https://www.linkedin.com/in/victor-ferrada-1740216b/"},
   ];
 
   // Services
   services = [
     {
       icon: "icon-tools font-30px white-color",
-      title: "Branding",
-      desc: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt.",
+      title: "Ventas",
+      desc: "Ventas Computadores, equipos perifericos, programas info, partes y piezas electronicas y de telco.",
     },
     {
       icon: "icon-linegraph font-30px white-color",
-      title: "Marketing",
-      desc: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt.",
+      title: "Edicion",
+      desc: "Edicion de programas informaticos",
     },
     {
       icon: "icon-globe font-30px white-color",
-      title: "Development",
-      desc: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt.",
-    },
-    {
-      icon: "icon-tools font-30px white-color",
-      title: "Web Design",
-      desc: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt.",
+      title: "Desarrollo",
+      desc: "Desarrollo de programas informaticos a medida",
     },
     {
       icon: "icon-beaker font-30px white-color",
-      title: "Social Media",
-      desc: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt.",
-    },
-    {
-      icon: "icon-layers font-30px white-color",
-      title: "Research",
-      desc: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt.",
-    },
+      title: "Consultoria",
+      desc: "Consultoria de informatica y de gestion de instalaciones.",
+    }
   ]
 
   // Portfolio
@@ -346,31 +336,24 @@ export class HomeOneComponent {
 
   slideStoreThree = [
     {
-      title: "Anne McAdams",
-      subTitle: "CEO / Founder",
+      title: "Francisco Sandoval",
+      subTitle: "Gerente General",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales nec nulla ac aliquet. Duis vel nunc eget.",
       image: "assets/images/team/avatar-1.jpg",
     },
 
     {
-      title: "Jared Kane",
+      title: "Mauricio Toro",
       subTitle: "CEO / Founder",
       description: "Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat.",
       image: "assets/images/team/avatar-2.jpg",
     },
 
     {
-      title: "Nani Wale",
+      title: "Victor Ferrada",
       subTitle: "CEO / Founder",
       description: "Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat.",
       image: "assets/images/team/avatar-3.jpg",
-    },
-
-    {
-      title: "John Doe",
-      subTitle: "CEO / Founder",
-      description: "Quisque hendrerit turpis sit amet tortor condimentum, nec commodo lorem condimentum. Sed id diam efficitur, mattis tellus ac, malesuada purus. In ultrices nisl sed eleifend consequat.",
-      image: "assets/images/team/avatar-4.jpg",
     }
 
   ]
